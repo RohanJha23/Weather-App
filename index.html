@@ -12,24 +12,26 @@
 <body>
     <div class="weather-app">
         <div class="search">
-            <input type="text" placeholder="Enter City/Country Name" autocomplete="off">
+            <input type="text" placeholder="Enter City/Country Name" autocomplete="off" id="City-Input">
             <button type="submit" id="search-bar"><img src="images/search.png" alt="Search Button"></button>
+            <br>
         </div>
+        <h4 id="Invalid">Invalid City</h4>
         <br>
-        <div class="information">
+        <div class="information" id="information">
             <img src="images/sun.png" alt="" class="Main-Image">
-            <h1>temperature</h1>
-            <h2>Mumbai</h2>
+            <h1 id="temperature">temperature</h1>
+            <h2 id="City-Name">Mumbai</h2>
             <div class="footer">
                 <div class="footer-1">
-                    <img src="images/storm.png" alt="">
+                    <img src="images/humidity.png" alt="">
                     <br>
-                    <p><span>30%</span><br>Humidty</p>
+                    <p><span id="humidity">30%</span><br>Humidty</p>
                 </div>
                 <div class="footer-2">
-                    <img src="images/storm.png" alt="">
+                    <img src="images/wind.png" alt="">
                     <br>
-                    <p><span>5.67km/hr</span> <br>Wind Speed</p>
+                    <p><span id="wind-speed">5.67km/hr</span> <br>Wind Speed</p>
                 </div>
             </div>
 
@@ -37,6 +39,8 @@
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 
