@@ -30,8 +30,10 @@ body{
 .search input{
     background-color: hsla(0, 0%, 50%, 0.064);
     height: 60px;
-    padding: 10px;
+    width: 220px;
+    padding: 5px;
     border-radius: 30px;
+    text-align: center;
 }
 .search button{
     height: 60px;
@@ -46,7 +48,7 @@ body{
 h4{
     justify-content: center;
     align-items: center;
-    text-align: left;
+    text-align: center;
     margin-left: 30px;
     margin-top: 10px;
     display: none;
